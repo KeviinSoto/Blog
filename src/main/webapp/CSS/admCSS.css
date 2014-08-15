@@ -1,0 +1,54 @@
+.lineaLista 
+{
+    background-color: red;
+    margin-top: 2px;
+    text-align: left;
+    font-size: xx-large;
+    color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nuevaNoticia{
+    text-align: center;
+    padding:2px;
+    font-family: Times New Roman;      
+    font-size:16px;
+    padding:5px 50px 10px 50px;
+    border-radius: 15px;
+}
+
+input:focus 
+{
+    border: 2px solid #000;
+    background: #F3F3F3;
+}
+
+.botonPublicarNoticia, .botonGuardarResumen, .botonEnviarNoticia{
+    width: 120px;
+    font-family: Times New Roman;
+    font-size:14px; 
+}
+
+label
+{
+    display: block;
+    margin: .5px;
+    padding: 2px;
+    font-family: Times New Roman;
+    font-size:16px; 
+}
+
+.txtArea{
+    width: 50%;
+}
+
+.btnCerrarSesion{
+    width: 100px;
+    font-family: Times New Roman;
+    font-size:16px; 
+    margin-left: 92%;
+    margin-top: 5px;
+    color: red;
+    border-radius: 15px;
+    text-align: right;
+}

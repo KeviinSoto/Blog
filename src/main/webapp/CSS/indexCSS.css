@@ -1,0 +1,66 @@
+.muestro_noticia{
+    width:100%;
+    margin: 5px;
+    clear:both;
+    height: auto;
+}
+
+a:link {text-decoration:none; color: red; font-weight: bold;} /* Link no visitado*/
+a:visited {text-decoration:none; color:red; font-weight: bold;} /*Link visitado*/
+a:active {text-decoration:none; color:red; font-weight: bold;} /*Link activo*/
+a:hover {text-decoration:underline; color:red; font-weight: bold;} /*Mouse sobre el link*/
+
+h2{
+    text-align: center;
+}
+.lineaLista 
+{
+    background-color: red;
+    margin-top: 2px;
+    text-align: left;
+    font-size: xx-large;
+    color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.muestro_noticia_por_fecha{
+    width: 30%;
+    float:left; 
+    margin-left: 26px;
+    border:solid 2px; 
+    border-color: #0c9ba0; 
+    box-shadow: #0c9ba0 2px;
+    padding: 2px;
+}
+
+.noticia_label:first-line{
+    text-align:center;
+    font-size: larger;
+    font-weight: bold;
+     margin-left: 50%;
+}
+
+.noticia_m:first-line{
+    text-align:center;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 50%;
+}
+
+.noticia_m{
+    margin-left:30px; 
+    margin-right: 10px;
+    float: right;
+    width: 60%;
+    text-align: justify;
+    border:solid 2px; 
+    border-color: #0c9ba0; 
+    box-shadow: #0c9ba0 2px;
+    padding: 4px;
+}
+
+.noticia_label{
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    text-align: justify;
+}
